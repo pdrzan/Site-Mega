@@ -1,0 +1,332 @@
+* {
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.menuPrincipal {
+    background-color: #161b22;
+    height: 80px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.menu {
+    height: 80px;
+    width: 980px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.lista-menu {
+    padding: 0px 0px 0px 0px;
+    margin: 27px 0px 0px 0;
+    float: right;
+}
+ 
+.lista-menu li {
+    list-style: none; 
+    display: inline;
+}
+li #pag-atual{
+    background-color: rgba(27, 32, 40, 0.988)
+}
+
+
+.lista-menu a {
+    padding: 27px 20px 26.5px 20px; 
+    margin: 0px 0px 0px 0px;
+    height: 100%;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #161b22;
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.813);
+}
+.lista-menu a:hover {
+    color: #C73B23; 
+}
+#logo {
+    float: left;
+    margin: -5px 0px 0px 0px;
+    height: 80px;
+    width: 80px;
+}
+
+html {
+    background-color: #030406;
+}   
+main {
+    width: 980px;
+    margin: 0 auto;
+}
+
+main video{
+    width: 373px;
+    display: inline;
+}
+
+
+.corpo-pagina {
+    padding: 5px 0px 0px 0px;
+}
+
+.corpo-pagina li{
+    float: left;
+    list-style: none;
+}
+.texto p{
+    border-left: 2px solid #C73B23;
+    margin: 0px 0px 0px 10px;
+}
+
+.corpo-pagina p {
+    margin: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 5px;
+    font-size: 16px;
+    width: 590px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p i {
+    font-size: 16px;
+}
+p a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #C73B23;
+}
+
+p a:hover {
+    color: #Bf1304;
+}
+
+#link {
+    margin: 10px 0px 0px 10px;
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(206, 205, 202);
+    border-radius: 5px;
+    color: #C73B23; 
+    padding: 2px 0px 2px 0px;
+    text-align: center;
+}
+.corpo-pagina {
+    color: rgb(206, 205, 202);
+}
+
+@media screen and (max-width: 980px) {
+    .menu {
+        width: 700px;
+        height: 70px;
+    }
+    .menuPrincipal {
+        height: 70px;
+    }
+    main {
+        width: 700px;
+    }
+    h1 {
+        font-size: 21px;
+        padding: 2px 0px 2px 0px;
+    }
+    #logo {
+        height: 70px;
+        width: 70px;
+        margin: -4px 0px 0px 0px;
+    }
+    p i {
+        font-size: 13px;
+    }
+    p a {
+        font-size: 13px;
+    }
+    .corpo-pagina p {
+        width: 383px;
+        font-size: 13px;
+    }
+    main video{
+        width: 300px;
+    }
+    .lista-menu a {
+        padding: 24.5px 15px 24px 15px;
+        font-size: 14px;
+    }
+    .lista-menu {
+        margin: 24.5px 0px 0px 0px;
+        
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .menu {
+        width: 500px;
+        height: 50px;
+    }
+    .menuPrincipal {
+        height: 50px;
+    }
+    main {
+        width: 500px;
+    }
+    h1 {
+        font-size: 16px;
+    }
+    p i {
+        font-size: 10.5px;
+    }
+    p a {
+        font-size: 10.5px;
+    }
+    .corpo-pagina p {
+        width: 283.70px;
+        font-size: 10.5px;
+    }
+    .corpo-pagina {
+        margin: 9px 0px 9px 0px;
+    }
+    main video{
+        width: 200px;
+    }
+    .texto p{
+        border-left: 1.3px solid #C73B23;
+    }
+    #logo {
+        height: 50px;
+        width: 50px;
+        margin: -3px 0px 0px 0px;
+    }
+    .lista-menu a {
+        padding: 17.5px 15px 17px 15px;
+        font-size: 10px;
+    }
+    .lista-menu {
+        margin: 16.5px 0px 0px 0px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .menu {
+        width: 350px;
+        height: 35px;
+    }
+    .menuPrincipal {
+        height: 35px;
+    }
+    main {
+        width: 350px;
+    }
+    h1 {
+        letter-spacing: 0.4px;
+        font-size: 11px;
+        padding: 1.5px 4px 1.5px 8px;
+    }
+    p i {
+        font-size: 7px;
+    }
+    p a {
+        font-size: 7px;
+        margin: 0px 0px 0px 7px;
+    }
+    #link {
+        margin: 7px 0px 0px 7px;
+    }
+    .corpo-pagina {
+        margin: 5px 0px 5px 0px;
+    }
+    .corpo-pagina p {
+        width: 215px;
+        font-size: 7px;
+        margin: 0px 0px 0px 7px;
+        padding: 0px 0px 0px 3.5px;
+    }
+    main video{
+        width: 123.5px;
+    }
+    .texto p{
+        border-left: 1px solid #C73B23;
+    }
+    #logo {
+        height: 35px;
+        width: 35px;
+        margin: -2px 0px 0px 0px;
+    }
+    .lista-menu a {
+        padding: 12px 7px 12px 7px;
+        font-size: 7px;
+    }
+    .lista-menu {
+        margin: 8px 0px 0px 0px;
+    }
+    
+}
+
+
+@media screen and (max-width: 350px) {
+    .menu {
+        width: 200px;
+        height: 20px;
+    }
+    .menuPrincipal {
+        height: 20px;
+    }
+    main {
+        width: 200px;
+    }
+    h1 {
+        letter-spacing: 0.3px;
+        font-size: 6px;
+        padding: 1px 4px 1px 5px;
+    }
+    p i {
+        font-size: 4px;
+    }
+    p a {
+        font-size: 4px;
+    }
+    #link {
+        margin: 5px 0px 0px 5px;
+    }
+    .texto p{
+        border-left: 0.7px solid #C73B23;
+    }
+    .corpo-pagina {
+        margin: 3px 0px 3px 0px;
+    }
+    .corpo-pagina p {
+        width: 110px;
+        font-size: 4px;
+        margin: 0px 0px 0px 5px;
+        padding: 0px 0px 0px 2.5px;
+    }
+    main video{
+        width: 81.5px;
+    }
+    #logo {
+        height: 20px;
+        width: 20px;
+        margin: -1px 0px 0px 0px;
+    }
+    .lista-menu a {
+        padding: 6.5px 5px 6.5px 5px;
+        font-size: 5px;
+    }
+    .lista-menu {
+        margin: -1px 0px 0px 0px;
+    }
+    
+}
+
+
+

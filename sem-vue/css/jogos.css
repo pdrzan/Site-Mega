@@ -1,0 +1,267 @@
+* {
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.menuPrincipal {
+    background-color: #161b22;
+    height: 80px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.menu {
+    height: 80px;
+    width: 980px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.lista-menu {
+    padding: 0px 0px 0px 0px;
+    margin: 27px 0px 0px 0;
+    float: right;
+}
+ 
+.lista-menu li {
+    list-style: none; 
+    display: inline;
+}
+li #pag-atual{
+    background-color: rgba(27, 32, 40, 0.988)
+}
+
+
+.lista-menu a {
+    padding: 27px 20px 26.5px 20px; 
+    margin: 0px 0px 0px 0px;
+    height: 100%;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #161b22;
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.813);
+}
+.lista-menu a:hover {
+    color: #C73B23; 
+}
+#logo {
+    float: left;
+    margin: -5px 0px 0px 0px;
+    height: 80px;
+    width: 80px;
+}
+
+html {
+    background-color: #030406;
+}   
+main {
+    width: 980px;
+    margin: 0 auto;
+}
+.lista-jogos {
+    margin: 15px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.lista-jogos .jogo{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    list-style: none;
+    float: left;
+}
+.jogo img {
+    margin: 0px 17.5px 0px 17.5px;
+    padding: 0px 20px 0px 20px;
+    height: 170px;
+    width: 170px;
+    border-radius: 50px;
+}
+.jogo div {
+    width: 170px;
+    margin: 5px 37.5px 10px 37.5px;
+    text-align: center;
+}
+
+.jogo a{
+    font-size: 11px;
+    border-radius: 5px;
+    padding: 5px;
+    color:#C73B23;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.jogo div a:hover {
+    color: #Bf1304; 
+    background-color: #0e1115;
+}
+
+@media screen and (max-width: 980px) {
+    .menu {
+        width: 700px;
+        height: 70px;
+    }
+    .menuPrincipal {
+        height: 70px;
+    }
+    main {
+        width: 700px;
+    }
+    .jogo img {
+        width: 150px;
+        height: 150px;
+        margin: 0px 15px 0px 15px;
+        padding: 0px 26.66px 0px 26.66px;
+        border-radius: 50px;
+    }
+    .jogo div{
+        width: 150px;
+        margin: 5px 41.66px 10px 41.66px;
+    }
+    .jogo a {
+        font-size: 10px;
+    }
+    #logo {
+        height: 70px;
+        width: 70px;
+        margin: -4px 0px 0px 0px;
+    }
+    .lista-menu a {
+        padding: 24.5px 15px 24px 15px;
+        font-size: 14px;
+    }
+    .lista-menu {
+        margin: 24.5px 0px 0px 0px;
+        
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .menu {
+        width: 500px;
+        height: 50px;
+    }
+    .menuPrincipal {
+        height: 50px;
+    }
+    main {
+        width: 500px;
+    }
+    .jogo img {
+        width: 100px;
+        height: 100px;
+        margin: 0px 12px 0px 12px;
+        padding: 0px 21.33px 0px 21.33px;
+        border-radius: 40px;
+    }
+    .jogo div{
+        width: 100px;
+        margin: 0px 33.33px 8px 33.33px;
+    }
+    .jogo a {
+        padding: 3px;
+        font-size: 6.5px;
+    }
+    #logo {
+        height: 50px;
+        width: 50px;
+        margin: -3px 0px 0px 0px;
+    }
+    .lista-menu a {
+        padding: 17.5px 15px 17px 15px;
+        font-size: 10px;
+    }
+    .lista-menu {
+        margin: 16.5px 0px 0px 0px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .menu {
+        width: 350px;
+        height: 35px;
+    }
+    .menuPrincipal {
+        height: 35px;
+    }
+    main {
+        width: 350px;
+    }
+    .jogo img {
+        width: 90px;
+        height: 90px;
+        margin: 0px 12.5px 0px 12.5px;
+        padding: 0px 30px 0px 30px;
+        border-radius: 45px;
+    }
+    .jogo div{
+        width: 90px;
+        margin: -3px 42.5px 6px 42.5px;
+    }
+    .jogo a {
+        padding: 3px;
+        font-size: 6px;
+    }
+    #logo {
+        height: 35px;
+        width: 35px;
+        margin: -2px 0px 0px 0px;
+    }
+    .lista-menu a {
+        padding: 12px 7px 12px 7px;
+        font-size: 7px;
+    }
+    .lista-menu {
+        margin: 8px 0px 0px 0px;
+    }
+    
+}
+
+
+@media screen and (max-width: 350px) {
+    .menu {
+        width: 200px;
+        height: 20px;
+    }
+    .menuPrincipal {
+        height: 20px;
+    }
+    main {
+        width: 200px;
+    }
+    .jogo img {
+        width: 60px;
+        height: 60px;
+        margin: 0px 7px 0px 7px;
+        padding: 0px 13px 0px 13px;
+        border-radius: 40px;
+    }
+    .jogo div{
+        width: 60px;
+        margin: -3px 20px 4px 20px;
+    }
+    .jogo a {
+        padding: 3px;
+        font-size: 4px;
+    }
+    #logo {
+        height: 20px;
+        width: 20px;
+        margin: -1px 0px 0px 0px;
+    }
+    .lista-menu a {
+        padding: 6.5px 5px 6.5px 5px;
+        font-size: 5px;
+    }
+    .lista-menu {
+        margin: -1px 0px 0px 0px;
+    }
+    
+}
