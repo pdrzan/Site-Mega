@@ -101,10 +101,14 @@ main p {
     float: left;
     width: 55%;
 }
-.img-texto p a {
+
+#segundo-paragrafo {
+    font-size: 27px;
+}
+#segundo-paragrafo  a {
     text-decoration: none;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 17px;
+    font-size: 27px;
     letter-spacing: 0.5px;
     color: #C73B23;
 }
@@ -145,8 +149,11 @@ main p {
         width: 70px;
         margin: -4px 0px 0px 0px;
     }
-    .img-texto p a {
-        font-size: 13px;
+    #segundo-paragrafo {
+        font-size: 21px;
+    }
+    #segundo-paragrafo  a {
+        font-size: 21px;
     }
     .lista-menu a {
         padding: 24.5px 15px 24px 15px;
@@ -181,8 +188,11 @@ main p {
         width: 50px;
         margin: -3px 0px 0px 0px;
     }
-    .img-texto p a {
-        font-size: 10px;
+    #segundo-paragrafo {
+        font-size: 13.5px;
+    }
+    #segundo-paragrafo  a {
+        font-size: 13.5px;
     }
     .lista-menu a {
         padding: 17.5px 15px 17px 15px;
@@ -212,6 +222,7 @@ main p {
     .img-texto p {
         font-size: 7px;
         border-left: 1px solid #C73B23;
+        letter-spacing: 0.40px;
         margin: 0px 0px 0px 2px;
         padding: 0px 0px 0px 4px;
     }
@@ -220,8 +231,11 @@ main p {
         width: 35px;
         margin: -2px 0px 0px 0px;
     }
-    .img-texto p a {
-        font-size: 7px;
+    #segundo-paragrafo {
+        font-size: 9.5px;
+    }
+    #segundo-paragrafo  a {
+        font-size: 9.5px;
     }
     .lista-menu a {
         padding: 12px 7px 12px 7px;
@@ -252,6 +266,7 @@ main p {
     .img-texto p {
         font-size: 3.5px;
         border-left: 0.7px solid #C73B23;
+        letter-spacing: 0.35px;
         margin: 0px 0px 0px 1px;
         padding: 0px 0px 0px 2px;
     }
@@ -263,8 +278,11 @@ main p {
         width: 20px;
         margin: -1px 0px 0px 0px;
     }
-    .img-texto p a {
-        font-size: 3.5px;
+    #segundo-paragrafo {
+        font-size: 5.5px;
+    }
+    #segundo-paragrafo  a {
+        font-size: 5.5px;
     }
     .lista-menu a {
         padding: 6.5px 5px 6.5px 5px;

@@ -80,6 +80,7 @@ main video{
     float: left;
     list-style: none;
 }
+
 .texto p{
     border-left: 2px solid #C73B23;
     margin: 0px 0px 0px 10px;
@@ -109,7 +110,15 @@ p a:hover {
 #link {
     margin: 10px 0px 0px 10px;
 }
-
+#categoria {
+    margin: 7px 0px 7px 0px;
+    display: block;
+}
+#categoria li{
+    font-size: 16px;
+    float: none;
+    list-style: square;
+}
 h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
@@ -158,6 +167,12 @@ h1 {
     main video{
         width: 300px;
     }
+    #categoria li{
+        font-size: 13px;
+    }
+    #categoria {
+        padding: 0px 0px 0px 35px;
+    }
     .lista-menu a {
         padding: 24.5px 15px 24px 15px;
         font-size: 14px;
@@ -205,6 +220,13 @@ h1 {
         height: 50px;
         width: 50px;
         margin: -3px 0px 0px 0px;
+    }
+    #categoria li{
+        font-size: 10.5px;
+    }
+    #categoria {
+        padding: 0px 0px 0px 29px;
+        margin: 5px 0px 5px 0px;
     }
     .lista-menu a {
         padding: 17.5px 15px 17px 15px;
@@ -262,6 +284,13 @@ h1 {
         width: 35px;
         margin: -2px 0px 0px 0px;
     }
+    #categoria li{
+        font-size: 7px;
+    }
+    #categoria {
+        padding: 0px 0px 0px 19px;
+        margin: 3px 0px 1px 0px;
+    }
     .lista-menu a {
         padding: 12px 7px 12px 7px;
         font-size: 7px;
@@ -312,6 +341,13 @@ h1 {
     }
     main video{
         width: 81.5px;
+    }
+    #categoria li{
+        font-size: 4px;
+    }
+    #categoria {
+        padding: 0px 0px 0px 13px;
+        margin: 1px 0px 0px 0px;
     }
     #logo {
         height: 20px;
